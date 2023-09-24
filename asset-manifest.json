@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/WebBanHangJuno/static/css/main.c29232d7.css",
+    "main.js": "/WebBanHangJuno/static/js/main.3ab9b379.js",
+    "index.html": "/WebBanHangJuno/index.html",
+    "main.c29232d7.css.map": "/WebBanHangJuno/static/css/main.c29232d7.css.map",
+    "main.3ab9b379.js.map": "/WebBanHangJuno/static/js/main.3ab9b379.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c29232d7.css",
+    "static/js/main.3ab9b379.js"
+  ]
+}
