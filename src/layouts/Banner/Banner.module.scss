@@ -1,0 +1,60 @@
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+    margin-top: -10px;
+}
+.item {
+    // position: absolute;
+}
+.banner {
+}
+.nav {
+    position: absolute;
+    display: flex;
+    z-index: 998;
+    top: calc(50% - 36px);
+    width: 100%;
+    justify-content: space-between;
+}
+.active {
+    background: black !important;
+}
+.nav-left,
+.nav-right {
+    margin: 5px;
+    padding: 4px 7px;
+    font-size: 36px;
+    cursor: pointer;
+}
+.nav-left {
+    margin-left: 18px;
+}
+.nav-right {
+    margin-right: 18px;
+}
+.dots {
+    position: absolute;
+    z-index: 998;
+    width: 100%;
+    height: 20px;
+    top: 95%;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.dots-container {
+    width: 27px;
+    background: transparent;
+    margin: 0 5px;
+    padding: 5px 0;
+    cursor: pointer;
+    padding: 12px 0;
+    span {
+        width: 100%;
+        height: 2px;
+        background: white;
+        display: block;
+    }
+}

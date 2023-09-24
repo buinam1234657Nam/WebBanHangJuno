@@ -1,0 +1,13 @@
+.wrapper {
+    // transform: translateX(-480px);
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8) !important;
+    z-index: 999999;
+    height: 100vh;
+    width: calc(100% - 480px);
+    display: none;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import '~slick-carousel/slick/slick.css';
+/* @import '~slick-carousel/slick/slick-theme.css'; */
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    transition: scroll 1s linear;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a,
+button {
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+.slick-prev {
+    left: 50px;
+    z-index: 999;
+    font-size: 40px;
+}
+.slick-next {
+    right: 24px;
+    z-index: 999;
+}
+.slick-center {
+    transform: scale(0.98);
+}
+
+.slick-slide:not(.slick-active) {
+    margin-top: -7px;
+}
+.slick-dots li {
+    margin: 0 10px;
+}
+.slick-dots li:nth-child(1) {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.slick-dots li .slick-active {
+    border: 1px solid black;
+}
+.child {
+    width: 100%;
+}
+.slick-active .box2 {
+    border: 1px solid black !important;
+}
+.box {
+    width: 40px;
+    height: 40px;
+}
+.slide:not(.slick-active) {
+    cursor: pointer;
+}
